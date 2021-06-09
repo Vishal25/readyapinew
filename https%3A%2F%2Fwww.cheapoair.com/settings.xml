@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="3911c9ca-87cd-40b8-83bc-41bea1d10eef" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://www.cheapoair.com" type="rest" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="3911c9ca-87cd-40b8-83bc-41bea1d10eeffileName">https%3A%2F%2Fwww.cheapoair.com</con:setting>
+  </con:settings>
+  <con:definitionCache type="TEXT" rootPart=""/>
+  <con:endpoints>
+    <con:endpoint>https://www.cheapoair.com</con:endpoint>
+  </con:endpoints>
+</con:interface>

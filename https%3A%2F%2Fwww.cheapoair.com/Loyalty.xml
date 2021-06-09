@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Loyalty" path="/profiles/api/v1/loyalty" id="aa42c82a-af81-4f37-bf92-db9c02b5c008" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="aa42c82a-af81-4f37-bf92-db9c02b5c008fileName">Loyalty</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Loyalty" id="fb40c680-c399-45ce-bd09-621703b17908" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="FAULT">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>403</con:status>
+      <con:params/>
+      <con:element xmlns:loy="https://www.cheapoair.com/profiles/api/v1/loyalty">loy:Fault</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:loy="https://www.cheapoair.com/profiles/api/v1/loyalty">loy:Response</con:element>
+    </con:representation>
+    <con:request name="Request 1" id="e561acd5-a13c-4602-bd23-3ab224149486" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>https://www.cheapoair.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://www.cheapoair.com/profiles/api/v1/loyalty</con:originalUri>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

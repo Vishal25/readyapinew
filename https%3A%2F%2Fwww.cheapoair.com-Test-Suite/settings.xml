@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="93ea1c85-7e21-4e9b-97b8-4b6e02c56892" name="https://www.cheapoair.com Test Suite" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="93ea1c85-7e21-4e9b-97b8-4b6e02c56892fileName">https%3A%2F%2Fwww.cheapoair.com-Test-Suite</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>
