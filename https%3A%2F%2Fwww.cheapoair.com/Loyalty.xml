@@ -22,7 +22,7 @@
     <con:request name="Request 1" id="e561acd5-a13c-4602-bd23-3ab224149486" mediaType="application/json">
       <con:settings>
         <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
-  &lt;con:entry key="X-SessionToken" value="8a00820f54f841c0a5b447fcf807c0da"/>
+  &lt;con:entry key="X-SessionToken" value="07bb00ad601044b1b08829165819b5c8"/>
   &lt;con:entry key="X-AuthType" value="1"/>
 &lt;/xml-fragment></con:setting>
       </con:settings>
